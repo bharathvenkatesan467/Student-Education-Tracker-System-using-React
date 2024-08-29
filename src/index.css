@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-content{
+  display:flex;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.first-division{
+  width:25%;
+  height: 100%;
+  background-color:black;
+  color:white;
+  padding: 5px;
+}
+
+.first-division div{
+padding: 6px 5px;
+}
+
+
+.first-division h4{
+  text-align: center;
+}
+.menu-content h1{
+  text-align: center;
+}
+
+.first-division img{
+  max-width: max-content;
+  margin: auto;
+}
+
+.second-division{
+  width:100%;
+  height: 100%;
+}
+
+.count-content{
+  display: flex;
+  max-width: 1000px;
+  margin:100px auto;
+}
+
+.topic{
+  background-color: black;
+  color: white;
+  padding:20px 10px;
+  position: fixed;
+  width: 100%;
+  margin-top:0px;
+}
+
+.regular-content,.remedial-content,.other-content{
+  margin:15px;
+  color:white;
+  border-radius: 10px;
+  padding:25px;
+}
+
+.count-content h1{
+  font-size: 30px;
+  text-align: right;
+}
+
+.regular-content{
+  background-color: rgb(215, 131, 112);
+}
+
+.remedial-content{
+  background-color: rgb(143, 93, 154);
+}
+
+.other-content{
+  background-color: rgb(160, 226, 211);
+}
+
+.menu-topic{
+  text-align: center;
+}
+
+.menu-content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 800px;
+  margin:10px auto;
+}
+
+.menu-content h1{
+  font-size: 20px;
+}
