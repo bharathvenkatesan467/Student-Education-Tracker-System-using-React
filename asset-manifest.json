@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bharathvenkatesan467/Student-Education-Tracker-System-using-React/static/css/main.9edc7361.css",
+    "main.js": "/bharathvenkatesan467/Student-Education-Tracker-System-using-React/static/js/main.b138173e.js",
+    "index.html": "/bharathvenkatesan467/Student-Education-Tracker-System-using-React/index.html",
+    "main.9edc7361.css.map": "/bharathvenkatesan467/Student-Education-Tracker-System-using-React/static/css/main.9edc7361.css.map",
+    "main.b138173e.js.map": "/bharathvenkatesan467/Student-Education-Tracker-System-using-React/static/js/main.b138173e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9edc7361.css",
+    "static/js/main.b138173e.js"
+  ]
+}
